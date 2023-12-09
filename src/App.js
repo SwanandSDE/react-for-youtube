@@ -39,9 +39,9 @@ function App() {
   return (
     
     <BrowserRouter>
+      <Routes>
     <Navbar title={"Text Utils"} mode={mode} toggleMode={toggleMode} />
     <Alert alert={alert} />
-      <Routes>
         <Route  path="/" element={<TextArea
             heading={"Enter text here"}
             mode={mode}
